@@ -97,9 +97,9 @@ export class PaymentsService {
           },
           customer: 'cus_PxPsltvfEkRw0y',
           success_url:
-            'http://localhost:3000' +
-            '/pay/success/checkout/session?session_id={CHECKOUT_SESSION_ID}',
-          cancel_url: 'http://localhost:3000' + '/pay/failed/checkout/session',
+            'http://localhost:5173' +
+            '/my-courses',
+          cancel_url: 'http://localhost:5173' + '/course',
         });
     
         return session;
